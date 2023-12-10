@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="version_2.test"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="test"
+             mc:Ignorable="d" 
+             Height="190" Width="900">
+    <Grid Background="#AFEEEE">
+        <Rectangle HorizontalAlignment="Center" Height="189" Stroke="Black" VerticalAlignment="Center" Width="899"/>
+        <Label x:Name="aaa" Content="Name" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="861"/>
+        <Button x:Name="Articul" Content="Articul" HorizontalAlignment="Left" Margin="134,49,0,0" VerticalAlignment="Top" Width="746" Height="24" Click="Articul_Click"/>
+        <Button x:Name="Cost" Content="Cost" HorizontalAlignment="Left" Margin="134,112,0,0" VerticalAlignment="Top" Width="746" Height="26" Click="Cost_Click"/>
+        <Button x:Name="Materials" Content="Material" HorizontalAlignment="Left" Margin="134,0,0,0" VerticalAlignment="Center" Width="746" Height="22" Click="Materials_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="41,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="ru-ru" Text="Варианты"/><Run Text=":"/></TextBlock>
+        <Label x:Name="ID" Content="Вопрос" HorizontalAlignment="Left" Margin="134,152,0,0" VerticalAlignment="Top" Width="82" Height="26" Visibility="Hidden"/>
+
+    </Grid>
+</UserControl>
